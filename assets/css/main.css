@@ -4897,6 +4897,37 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   }
 }
 
+/* Img team */
+
+.member > a > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.member > .member-text {
+  text-align: start;
+}
+
+@media (max-width: 736px) {
+  .member > a > img {
+    height: 250px;
+  }
+
+  .member > .member-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .member > a > img {
+    height: 200px;
+  }
+
+  .member > .member-text {
+    text-align: end;
+  }
+}
+
 /* Dialog Modal */
 
 dialog {
