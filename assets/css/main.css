@@ -5082,3 +5082,9 @@ dialog button {
     opacity: 0.6;
   }
 }
+
+/* Cursor Off */
+
+.cursor-off a {
+  cursor: default;
+}
